@@ -8,7 +8,7 @@ import { loadEnv, connectDb, disconnectDB } from '@/config';
 
 loadEnv();
 
-const app = express();
+const app = express(); 
 app
   .use(cors())
   .use(express.json())

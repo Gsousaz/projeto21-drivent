@@ -9,4 +9,13 @@ export type RequestError = {
   statusText: string;
   name: string;
   message: string;
+  error?: string;
 };
+
+export type AddressData = {
+  logradouro: string;
+  complemento: string;
+  bairro: string;
+  cidade: string;
+  uf: string;
+}
